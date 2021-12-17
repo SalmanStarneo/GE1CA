@@ -49,7 +49,7 @@ public class TerrainFace
             }      
           }
       }
-      mesh.Clear();
+      // mesh.Clear();
       mesh.vertices = vertices;
       mesh.triangles=triangles;
       mesh.RecalculateNormals();
