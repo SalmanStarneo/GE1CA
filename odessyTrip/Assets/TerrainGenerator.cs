@@ -7,10 +7,10 @@ public class TerrainGenerator : MonoBehaviour
 
     public int depth = 20;
 
-    public int width = 256;
-    public int height = 256;
+    public int width = 256*2;
+    public int height = 256*2;
 
-    public float scale = 20f;
+    public float scale = 25f;
 
     public float offsetX = 100f;
     public float offsetY = 100f;
@@ -18,7 +18,7 @@ public class TerrainGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        offsetX=Random.Range(0f,9999f);
+        offsetX=Random.Range(0f,100f);
         offsetY=Random.Range(0f,9999f);
         
     }
