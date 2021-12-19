@@ -22,6 +22,8 @@ camera where the camera will display a 3rd person view of the vehicle flying.
 
 # Instructions for use:
 
+T
+
 - if there is any controls built in it will be to do simple movement around, 
 and maybe shoot projectile into the floating objects or do barrel rolls (if it will not be a grounded vehicle).
 
