@@ -8,14 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Rocks
-  m_Shader: {fileID: 4800000, guid: b7839dad95683814aa64166edc107ae2, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON
-  m_LightmapFlags: 4
+  m_Shader: {fileID: -6465566751694194690, guid: 6987da0cf7f7632428c7d61a4b7150ea,
+    type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _COLORCOLOR_ON _EMISSION
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -129,6 +129,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_DD0876B: 2
     - _AlphaClip: 1
     - _Blend: 0
     - _BlendOp: 0
@@ -137,7 +138,7 @@ Material:
     - _CameraFarFadeDistance: 2
     - _CameraNearFadeDistance: 1
     - _ColorMask: 15
-    - _ColorMode: 0
+    - _ColorMode: 4
     - _Cull: 2
     - _Cutoff: 0
     - _DetailNormalMapScale: 1
@@ -190,11 +191,15 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9811321, g: 0.8922261, b: 0.64328945, a: 1}
-    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - Color_3574E298: {r: 0.6313726, g: 0.2352941, b: 0.9339623, a: 0.8313726}
+    - Color_7096DB9C: {r: 0.1338555, g: 0.2166042, b: 0.6037736, a: 0}
+    - Color_74FCB614: {r: 0.7169812, g: 0.5741862, b: 0.5242079, a: 1}
+    - Color_BEDC6B20: {r: 0.4196078, g: 0.4433962, b: 0.4433962, a: 1}
+    - _BaseColor: {r: 0.6698113, g: 0.66900307, b: 0.66665184, a: 1}
+    - _BaseColorAddSubDiff: {r: -1, g: 1, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 0.9811321, g: 0.8922261, b: 0.64328945, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.023529412, g: 0.025, b: 0.025980392, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _Specular: {r: 0.40126422, g: 0.54509807, b: 0.058823533, a: 0}

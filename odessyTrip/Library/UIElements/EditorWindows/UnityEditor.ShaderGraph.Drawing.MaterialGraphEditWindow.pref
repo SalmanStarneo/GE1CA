@@ -23,6 +23,12 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__d05522e83127dd546bda94e8c0b82e46__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   - __PanelContainer__rootVisualContainer__823a5e13adab2b14d862bf9939eb0b42__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
   - __PanelContainer__rootVisualContainer__823a5e13adab2b14d862bf9939eb0b42__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__63cfc9cce15b6a24e89fa6f4c788769f__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__63cfc9cce15b6a24e89fa6f4c788769f__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__de7fd122a1051694e8b19fa5617ff9d8__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__de7fd122a1051694e8b19fa5617ff9d8__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__6987da0cf7f7632428c7d61a4b7150ea__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__6987da0cf7f7632428c7d61a4b7150ea__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   m_Values:
   - '{}'
   - '{}'
@@ -32,5 +38,11 @@ MonoBehaviour:
   - '{}'
   - '{}'
   - '{}'
-  - '{"position":{"x":629.5999755859375,"y":281.6000061035156,"z":0.0},"scale":{"x":0.49717673659324648,"y":0.49717673659324648,"z":1.0}}'
-  - '{"m_Version":62,"m_SelectedElementsArray":["0e2e7ee1-6b9d-47d1-a2ec-0d2792d39662"]}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{"position":{"x":649.5999755859375,"y":464.79998779296877,"z":0.0},"scale":{"x":0.32368898391723635,"y":0.32368898391723635,"z":1.0}}'
+  - '{"m_Version":3,"m_SelectedElementsArray":[]}'
