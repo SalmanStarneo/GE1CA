@@ -42,6 +42,8 @@ and maybe shoot projectile into the floating objects or do barrel rolls (if it w
 # References
 
 # What I am most proud of in the assignment
+- The *skybox* and the *water plane* Shaders worked very well after the hours spent debugging the Render Pipeline and 
+fixing the graphic settings for unity.
 
 # Proposal submitted earlier can go here:
 
