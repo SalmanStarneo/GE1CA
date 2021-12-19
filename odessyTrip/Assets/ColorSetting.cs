@@ -4,6 +4,6 @@ using UnityEngine;
 
 [CreateAssetMenu()]
 public class ColorSetting : ScriptableObject {
- public PlanetColor planetColor;
+ public Color planetColor;
 
 }
