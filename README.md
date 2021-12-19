@@ -13,6 +13,13 @@ My Idea for the Game Engine 1 CA is to create a scene where a vehicle that will 
 as it will be similar to the scenes from digimon our war game movie when they go through internet connection tunnels and space oddesy movie hyper speed scene, 
 where it will change colour, move and float around with the beat of the music.
 
+# Alteration to the Idea
+The Project will follow the previous idea, but with little changes, like a SeaWater Plane will be included along with perlin noise generated Terrain
+that will mimic rocks under the water. The Idea will remain about a vehicle that will be moving endlessly but rather than a tunnel it will be flying over the Ocean in an
+illusion that it is traveling across to different worlds far over the horizen. The ship is made using Blender and insearted as an GameObject that will act as a child to the
+camera where the camera will display a 3rd person view of the vehicle flying.
+
+
 # Instructions for use:
 
 - if there is any controls built in it will be to do simple movement around, 
