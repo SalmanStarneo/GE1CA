@@ -30,6 +30,7 @@ and maybe shoot projectile into the floating objects or do barrel rolls (if it w
 - if there is no movement invloved then it will just include music changing based on button clicks, location of the vehicle or somthing else.
 
 # How it works
+by running the unity project displaying an illusion of a flight through a starry sky across the sea to journey to different new worlds
 
 # List of classes/assets in the project and whether made yourself or modified or if its from a source, please give the reference
 
@@ -40,10 +41,15 @@ and maybe shoot projectile into the floating objects or do barrel rolls (if it w
 | MyClass2.cs | From [reference]() |
 
 # References
+Brackeyes 
+Sebastian Lague
 
+
+Sebastine 
 # What I am most proud of in the assignment
 - The *skybox* and the *water plane* Shaders worked very well after the hours spent debugging the Render Pipeline and 
 fixing the graphic settings for unity.
+
 
 # Proposal submitted earlier can go here:
 
