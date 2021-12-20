@@ -19,10 +19,7 @@ that will mimic rocks under the water. The Idea will remain about a vehicle that
 illusion that it is traveling across to different worlds far over the horizen. The ship is made using Blender and insearted as an GameObject that will act as a child to the
 camera where the camera will display a 3rd person view of the vehicle flying.
 
-
 # Instructions for use:
-
-T
 
 - if there is any controls built in it will be to do simple movement around, 
 and maybe shoot projectile into the floating objects or do barrel rolls (if it will not be a grounded vehicle).
@@ -32,13 +29,28 @@ and maybe shoot projectile into the floating objects or do barrel rolls (if it w
 # How it works
 by running the unity project displaying an illusion of a flight through a starry sky across the sea to journey to different new worlds
 
-# List of classes/assets in the project and whether made yourself or modified or if its from a source, please give the reference
+# List of classes/assets in the project:
 
 | Class/asset | Source |
 |-----------|-----------|
 | MyClass.cs | Self written |
 | MyClass1.cs | Modified from [reference]() |
 | MyClass2.cs | From [reference]() |
+----------------
+
+| Class/asset | Source |
+|-----------|-----------|
+| AudioManager.cs |  |
+| ColorSetting.cs | |
+| ShapeSetting.cs | |
+| Settings/Color.cs | |
+| Settings/Shape.cs | |
+| Renderer.cs | |
+| Sounds.cs | |
+| SphereFieldTest.cs | |
+| TerrainFace.cs | |
+| TerrainGenerator.cs | |
+| WaterController.cs | |
 
 # References
 Brackeyes 
