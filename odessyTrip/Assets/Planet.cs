@@ -10,18 +10,21 @@ public class Planet : MonoBehaviour {
     public ShapeSetting shapeSetting;
     public ColorSetting colorSetting;
 
+    ShapeGenerator shapeGenerator;
+
     [SerializeField, HideInInspector]
     MeshFilter[] meshFilters;
     TerrainFace[] terrainFaces;
      
 	private void OnValidate()
 	{
-        Initialize();
-        GenerateMesh();
+        GeneratePlanet();
 	}
 
 	void Initialize()
     {
+        shapeGenerator = new ShapeGenerator(shapeSetting);
+
         if (meshFilters == null || meshFilters.Length == 0)
         {
             meshFilters = new MeshFilter[6];
@@ -42,8 +45,15 @@ public class Planet : MonoBehaviour {
                 meshFilters[i].sharedMesh = new Mesh();
             }
 
-            terrainFaces[i] = new TerrainFace(meshFilters[i].sharedMesh, resolution, directions[i]);
+            terrainFaces[i] = new TerrainFace(shapeGenerator,meshFilters[i].sharedMesh, resolution, directions[i]);
         }
+    }
+
+     public void GeneratePlanet()
+    {
+        Initialize();
+        GenerateMesh();
+        GenerateColour();
     }
 
     public void OnShapeSettingsUpdated()
