@@ -64,11 +64,14 @@ by running the unity project displaying an illusion of a flight through a starry
 Brackeyes 
 Sebastian Lague
 
-
-Sebastine 
 # What I am most proud of in the assignment
-- The *skybox* and the *water plane* Shaders worked very well after the hours spent debugging the Render Pipeline and 
-fixing the graphic settings for unity.
+- The *skybox* and the 
+- The *water plane*
+Spent hours debugging the Render Pipeline and 
+fixing the graphic settings for unity, so that the sheders works properly.
+
+- Fixing the planet display and metrial, as after getting the universal pipeline working for 
+the other objects it took a while for to have it retain its matrial.
 
 
 # Proposal submitted earlier can go here:
