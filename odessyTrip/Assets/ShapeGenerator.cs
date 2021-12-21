@@ -20,10 +20,26 @@ public class ShapeGenerator
 
     public Vector3 CalculatePointOnPlanet(Vector3 pointOnUnitSphere)
     {
+        float firstLayerValue=0;
         float elevation = 0;
-        for(int i=0; i<noiseFiltters.Length; i++)
+
+        if(noiseFiltters.Length>0)
         {
-            elevation+=noiseFiltters[i].Evaluate(pointOnUnitSphere);
+            firstLayerValue = noiseFiltters[0].Evaluate(pointOnUnitSphere);
+            if(shapeSetting.noiseLayers[0].enabled)
+            {
+                elevation=firstLayerValue;
+            }
+        }
+
+        for(int i=1; i<noiseFiltters.Length; i++)
+        {
+            if(shapeSetting.noiseLayers[i].enabled)
+            {
+                float layerMask =(shapeSetting.noiseLayers[i].useFirstLayerMask)?firstLayerValue:1;
+                elevation+=noiseFiltters[i].Evaluate(pointOnUnitSphere)*layerMask;
+
+            }
         }
         return pointOnUnitSphere * shapeSetting.planetRadius*(elevation+1);
     }
