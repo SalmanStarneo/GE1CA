@@ -12,5 +12,6 @@ public class NoiseSetting
     public int numLayers=1;
     public float persistence =.5f;
     public float baseRoughness = 2;
+    public float minimumValue;
     public Vector3 center;
 }

@@ -13,7 +13,7 @@ public class TerrainGenerator : MonoBehaviour
     public float scale = 25f;
 
     public float offsetX = 100f;
-    public float offsetY = 100f;
+    public float offsetY = 200f;
 
     // Start is called before the first frame update
     void Start()

@@ -24,6 +24,7 @@ public class NoiseFiltter
             frequency  *= nSetting.roughness;
             amplitude *= nSetting.persistence;
         }
+        noiseValue=Mathf.Max(0, noiseValue-nSetting.minimumValue);
         return noiseValue*(nSetting.strength);
    }
 }

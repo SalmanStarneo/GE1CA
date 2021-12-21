@@ -325,7 +325,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 1000
+    width: 969
     height: 439
   m_ViewDataDictionary: {fileID: 0}
   m_Selected: 6987da0cf7f7632428c7d61a4b7150ea
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 58.250984, y: 618, z: 710.3574}
+    m_Target: {x: 48.255157, y: 270.96896, z: 745.92163}
     speed: 2
-    m_Value: {x: 58.250984, y: 618, z: 710.3574}
+    m_Value: {x: 48.255157, y: 270.96896, z: 745.92163}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 2
@@ -586,13 +586,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0014255135, y: 0.9972146, z: -0.019747568, w: 0.07192383}
+    m_Target: {x: 0.0067329877, y: 0.99310213, z: -0.091423914, w: 0.07312467}
     speed: 2
-    m_Value: {x: 0.0014255121, y: 0.99721366, z: -0.01974755, w: 0.07192376}
+    m_Value: {x: 0.006732979, y: 0.9931008, z: -0.091423795, w: 0.07312457}
   m_Size:
-    m_Target: 370.43958
+    m_Target: 415.09088
     speed: 2
-    m_Value: 370.43958
+    m_Value: 415.09088
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -804,7 +804,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 60.5}
+    m_ScrollPosition: {x: 0, y: 161.5}
     m_GridSize: 72
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 112
