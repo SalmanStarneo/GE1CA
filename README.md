@@ -10,15 +10,15 @@ Class Group:TU856/4
 
 # Description of the project:
 
-##The Project will follow the previous idea, but with little changes, like a SeaWater Plane will be included along with perlin noise generated Terrain
-##that will mimic rocks under the water. The Idea will remain about a vehicle that will be moving endlessly but rather than a tunnel it will be flying over the Ocean in an
-##illusion that it is traveling across to different worlds far over the horizen. The ship is made using Blender and insearted as an GameObject that will act as a child to the
-##camera where the camera will display a 3rd person view of the vehicle flying.
+The Project will follow the previous idea, but with little changes, like a SeaWater Plane will be included along with perlin noise generated Terrain
+that will mimic rocks under the water. The Idea will remain about a vehicle that will be moving endlessly but rather than a tunnel it will be flying over the Ocean in an
+illusion that it is traveling across to different worlds far over the horizen. The ship is made using Blender and insearted as an GameObject that will act as a child to the
+camera where the camera will display a 3rd person view of the vehicle flying.
 ----------------
 # Instructions for use:
 
-1.###The Game will run within unity and the Audio can be changed from the Audio manager to control the Audio Clips, the Moon/Planet Setting can be changed and played around with changing the density, roughness, noise value and even the Radius of the planet, and to set it back to default setting clicking on the button in the GameObject *Moon* script component *planet*'s button. 
-2.### The user can pause the game by clicking either "Alt" buttons on the keyboard and to unpause it just click it again or click on the screen button "Resume".
+1. The Game will run within unity and the Audio can be changed from the Audio manager to control the Audio Clips, the Moon/Planet Setting can be changed and played around with changing the density, roughness, noise value and even the Radius of the planet, and to set it back to default setting clicking on the button in the GameObject *Moon* script component *planet*'s button. 
+2. The user can pause the game by clicking either "Alt" buttons on the keyboard and to unpause it just click it again or click on the screen button "Resume".
 ----------------
 # How it works
 ###by running the unity project and it will start by displaying an illusion of a flight through a starry sky across the sea to journey to different new worlds.
@@ -26,8 +26,8 @@ Class Group:TU856/4
 ### Where the water plane will obtain the by running and changing with the Shedder and the cloth component it is attached to.
 
 ### The sky box has been changed Twice:
-1. ### First as a component that had a night gradiant;
-2. ### The second time it changed to shedder that changes and manipulte the skybox using multiple nodes like Vovio effect and Normalizing to give the skybox shimmering stars effect from different angles;
+1. First as a component that had a night gradiant;
+2. The second time it changed to shedder that changes and manipulte the skybox using multiple nodes like Vovio effect and Normalizing to give the skybox shimmering stars effect from different angles;
 ----------------
 # List of classes/assets in the project:
 | Class/asset | Source |
@@ -159,7 +159,7 @@ This is an image using an absolute URL:
 
 This is a youtube video:
 
-[![YouTube]](https://www.youtube.com/watch?v=r_Bpd2F__3U)
+[![YouTube]](<iframe width="1520" height="585" src="https://www.youtube.com/embed/r_Bpd2F__3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)(https://www.youtube.com/watch?v=r_Bpd2F__3U)
 
 This is a table:
 
