@@ -59,7 +59,7 @@ From [Karsten Schmidt](slight optimizations & restructuring) |
 # References
 - Brackeyes 
 - Sebastian Lague
-
+--------------------
 # What I am most proud of in the assignment
 - The *skybox*.
 - The *water plane*.
@@ -72,8 +72,10 @@ the other objects it took a while for to have it retain its matrial.
 - Making complex low poly model in blender.
 - transfering blender model to unity and setting colours to the gameObject models.
 
+- Creating the Pause Menu and the Control script for it.
 
-# Proposal submitted earlier can go here:
+-------------------------
+# Proposal submitted earlier:
 My Idea for the Game Engine 1 CA is to create a scene where a vehicle that will be going through an endless(Looping) tunnle with colourful objects floating around,   
 as it will be similar to the scenes from digimon our war game movie when they go through internet connection tunnels and space oddesy movie hyper speed scene, 
 where it will change colour, move and float around with the beat of the music.
@@ -146,7 +148,80 @@ public class AudioManger : MonoBehaviour
 
 
 }
+
 ```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+[Serializable]
+public class NoiseSetting
+{
+    public float strength = 1;
+    public float roughness = 2;
+    [Range(1,10)]
+    public int numLayers=1;
+    public float persistence =.5f;
+    public float baseRoughness = 2;
+    public float minimumValue;
+    public Vector3 center;
+}
+
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ShapeGenerator
+{
+    ShapeSetting shapeSetting;
+    NoiseFiltter[] noiseFiltters;
+
+    public ShapeGenerator(ShapeSetting shapeSetting)
+    {
+        this.shapeSetting = shapeSetting;
+        noiseFiltters = new NoiseFiltter[shapeSetting.noiseLayers.Length];
+        for(int i=0; i<noiseFiltters.Length; i++)
+        {
+            noiseFiltters[i] = new NoiseFiltter(shapeSetting.noiseLayers[i].noiseSetting);
+        }
+    
+    }
+
+    public Vector3 CalculatePointOnPlanet(Vector3 pointOnUnitSphere)
+    {
+        float firstLayerValue=0;
+        float elevation = 0;
+
+        if(noiseFiltters.Length>0)
+        {
+            firstLayerValue = noiseFiltters[0].Evaluate(pointOnUnitSphere);
+            if(shapeSetting.noiseLayers[0].enabled)
+            {
+                elevation=firstLayerValue;
+            }
+        }
+
+        for(int i=1; i<noiseFiltters.Length; i++)
+        {
+            if(shapeSetting.noiseLayers[i].enabled)
+            {
+                float layerMask =(shapeSetting.noiseLayers[i].useFirstLayerMask)?firstLayerValue:1;
+                elevation+=noiseFiltters[i].Evaluate(pointOnUnitSphere)*layerMask;
+
+            }
+        }
+        return pointOnUnitSphere * shapeSetting.planetRadius*(elevation+1);
+    }
+}
+
+```
+```
+
+```
+```
+
 ```
 ```
 This is an image using a relative URL:
