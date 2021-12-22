@@ -13,26 +13,18 @@ The Project will follow the previous idea, but with little changes, like a SeaWa
 that will mimic rocks under the water. The Idea will remain about a vehicle that will be moving endlessly but rather than a tunnel it will be flying over the Ocean in an
 illusion that it is traveling across to different worlds far over the horizen. The ship is made using Blender and insearted as an GameObject that will act as a child to the
 camera where the camera will display a 3rd person view of the vehicle flying.
-
+----------------
 # Instructions for use:
 
 - if there is any controls built in it will be to do simple movement around, 
 and maybe shoot projectile into the floating objects or do barrel rolls (if it will not be a grounded vehicle).
 
 - if there is no movement invloved then it will just include music changing based on button clicks, location of the vehicle or somthing else.
-
+----------------
 # How it works
 by running the unity project displaying an illusion of a flight through a starry sky across the sea to journey to different new worlds
-
-# List of classes/assets in the project:
-
-| Class/asset | Source |
-|-----------|-----------|
-| MyClass.cs | Self written |
-| MyClass1.cs | Modified from [reference]() |
-| MyClass2.cs | From [reference]() |
 ----------------
-
+# List of classes/assets in the project:
 | Class/asset | Source |
 |-----------|-----------|
 | AudioManager.cs | Self Written|
@@ -56,10 +48,10 @@ From [Karsten Schmidt](slight optimizations & restructuring) |
 | Flame.vfx | Self Written|
 |FireWorks.vfx|Self Written|
 |Colour Palette(for the spaceShip)|from [https://lospec.com/palette-list]|
-
+----------------
 # References
-Brackeyes 
-Sebastian Lague
+- Brackeyes 
+- Sebastian Lague
 
 # What I am most proud of in the assignment
 - The *skybox*.
