@@ -4,7 +4,7 @@
             "typeInfo": {
                 "fullName": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty"
             },
-            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"03e658e8-d229-4b3f-9fa4-eaba9840e822\"\n    },\n    \"m_Name\": \"SkyA\",\n    \"m_DefaultReferenceName\": \"Color_462F9956\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"r\": 0.030392156913876535,\n        \"g\": 0.0,\n        \"b\": 0.06372549384832382,\n        \"a\": 1.0\n    },\n    \"m_ColorMode\": 1\n}"
+            "JSONnodeData": "{\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"03e658e8-d229-4b3f-9fa4-eaba9840e822\"\n    },\n    \"m_Name\": \"SkyA\",\n    \"m_DefaultReferenceName\": \"Color_462F9956\",\n    \"m_OverrideReferenceName\": \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Precision\": 0,\n    \"m_GPUInstanced\": false,\n    \"m_Hidden\": false,\n    \"m_Value\": {\n        \"r\": 0.20565591752529145,\n        \"g\": 0.04338731989264488,\n        \"b\": 0.3679245114326477,\n        \"a\": 1.0\n    },\n    \"m_ColorMode\": 1\n}"
         },
         {
             "typeInfo": {
