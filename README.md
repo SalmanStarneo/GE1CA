@@ -40,25 +40,24 @@ by running the unity project displaying an illusion of a flight through a starry
 
 | Class/asset | Source |
 |-----------|-----------|
-| AudioManager.cs |  |
-| ColorSetting.cs | |
-| ShapeSetting.cs | |
-| Settings/Color.cs | |
-| Settings/Shape.cs | |
-| Renderer.cs | |
-| Sounds.cs | |
-| SphereFieldTest.cs | |
+| AudioManager.cs | Self Written|
+| ColorSetting.cs | Self Written|
+| ShapeSetting.cs | Self Written|
+| Settings/Color.cs | Self Written|
+| Settings/Shape.cs | Self Written|
+| Renderer.cs |from [Unity]|
+| Sounds.cs | Self Written|
 | TerrainFace.cs | |
 | TerrainGenerator.cs | |
 | NoiseSetting.cs | |
 | NoiseFiltter.cs | |
-| Noise.cs | From [reference]() |
+| Noise.cs | From [Stefan Gustavson, Linkping University, Sweden] (stegu at itn dot liu dot se)
+From [Karsten Schmidt](slight optimizations & restructuring) |
 | CustomSK.mat | |
 | Rocks.mat | |
 | Standard.mat | |
 | Stars.mat | |
 | Water.mat | |
-
 
 # References
 Brackeyes 
