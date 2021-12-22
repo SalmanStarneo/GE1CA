@@ -9,11 +9,6 @@ Student Number: D18124618
 Class Group:TU856/4
 
 # Description of the project
-My Idea for the Game Engine 1 CA is to create a scene where a vehicle that will be going through an endless(Looping) tunnle with colourful objects floating around,   
-as it will be similar to the scenes from digimon our war game movie when they go through internet connection tunnels and space oddesy movie hyper speed scene, 
-where it will change colour, move and float around with the beat of the music.
-
-# Alteration to the Idea
 The Project will follow the previous idea, but with little changes, like a SeaWater Plane will be included along with perlin noise generated Terrain
 that will mimic rocks under the water. The Idea will remain about a vehicle that will be moving endlessly but rather than a tunnel it will be flying over the Ocean in an
 illusion that it is traveling across to different worlds far over the horizen. The ship is made using Blender and insearted as an GameObject that will act as a child to the
@@ -41,16 +36,16 @@ by running the unity project displaying an illusion of a flight through a starry
 | Class/asset | Source |
 |-----------|-----------|
 | AudioManager.cs | Self Written|
-| ColorSetting.cs | Self Written|
-| ShapeSetting.cs | Self Written|
-| Settings/Color.cs | Self Written|
-| Settings/Shape.cs | Self Written|
+| ColorSetting.cs | Self Written/Modified from [Sebastian Lague]() |
+| ShapeSetting.cs | Self Written/Modified from [Sebastian Lague]() |
+| Settings/Color.cs | Self Written/Modified from [Sebastian Lague]() |
+| Settings/Shape.cs | Self Written/Modified from [Sebastian Lague]() |
 | Renderer.cs |from [Unity]|
 | Sounds.cs | Self Written|
-| TerrainFace.cs | Self Written|
-| TerrainGenerator.cs | Self Written|
-| NoiseSetting.cs | Self Written|
-| NoiseFiltter.cs | Self Written|
+| TerrainFace.cs | Self Written/Modified from [Sebastian Lague]() |
+| TerrainGenerator.cs | Self Written/Modified from [Brackeyes]() |
+| NoiseSetting.cs | Self Written/Modified from [Sebastian Lague]() |
+| NoiseFiltter.cs | Self Written/Modified from [Sebastian Lague]() |
 | Noise.cs | From [Stefan Gustavson, Linkping University, Sweden] (stegu at itn dot liu dot se)
 From [Karsten Schmidt](slight optimizations & restructuring) |
 | CustomSK.mat | Self Written|
@@ -64,18 +59,23 @@ Brackeyes
 Sebastian Lague
 
 # What I am most proud of in the assignment
-- The *skybox* and the 
-- The *water plane*
-Spent hours debugging the Render Pipeline and 
+- The *skybox*.
+- The *water plane*.
+- Spent hours debugging the Render Pipeline and 
 fixing the graphic settings for unity, so that the sheders works properly.
 
 - Fixing the planet display and metrial, as after getting the universal pipeline working for 
 the other objects it took a while for to have it retain its matrial.
 
-- Making complex low poly model in blender and transfering it to unity and setting colours to the gameObject models
+- Making complex low poly model in blender.
+- transfering blender model to unity and setting colours to the gameObject models.
 
 
 # Proposal submitted earlier can go here:
+My Idea for the Game Engine 1 CA is to create a scene where a vehicle that will be going through an endless(Looping) tunnle with colourful objects floating around,   
+as it will be similar to the scenes from digimon our war game movie when they go through internet connection tunnels and space oddesy movie hyper speed scene, 
+where it will change colour, move and float around with the beat of the music.
+
 
 ## This is how to markdown text:
 
