@@ -159,7 +159,7 @@ This is an image using an absolute URL:
 
 This is a youtube video:
 
-[![OdissyTrip_VideoDisplay](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)(https://www.youtube.com/watch?v=r_Bpd2F__3U)]
+[![OdissyTrip_VideoDisplay](https://github.com/SalmanStarneo/GE1CA/blob/main/Screenshot%202021-12-22%20020211.png?raw=true)](https://www.youtube.com/watch?v=r_Bpd2F__3U)
 
 This is a table:
 
