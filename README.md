@@ -47,17 +47,17 @@ by running the unity project displaying an illusion of a flight through a starry
 | Settings/Shape.cs | Self Written|
 | Renderer.cs |from [Unity]|
 | Sounds.cs | Self Written|
-| TerrainFace.cs | |
-| TerrainGenerator.cs | |
-| NoiseSetting.cs | |
-| NoiseFiltter.cs | |
+| TerrainFace.cs | Self Written|
+| TerrainGenerator.cs | Self Written|
+| NoiseSetting.cs | Self Written|
+| NoiseFiltter.cs | Self Written|
 | Noise.cs | From [Stefan Gustavson, Linkping University, Sweden] (stegu at itn dot liu dot se)
 From [Karsten Schmidt](slight optimizations & restructuring) |
-| CustomSK.mat | |
-| Rocks.mat | |
-| Standard.mat | |
-| Stars.mat | |
-| Water.mat | |
+| CustomSK.mat | Self Written|
+| Rocks.mat | Self Written|
+| Standard.mat | Self Written|
+| Stars.mat | Self Written|
+| Water.mat | Self Written|
 
 # References
 Brackeyes 
