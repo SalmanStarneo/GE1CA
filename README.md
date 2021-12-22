@@ -53,6 +53,9 @@ From [Karsten Schmidt](slight optimizations & restructuring) |
 | Standard.mat | Self Written|
 | Stars.mat | Self Written|
 | Water.mat | Self Written|
+| Flame.vfx | Self Written|
+|FireWorks.vfx|Self Written|
+|Colour Palette(for the spaceShip)|from [https://lospec.com/palette-list]|
 
 # References
 Brackeyes 
