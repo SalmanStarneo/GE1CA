@@ -76,10 +76,13 @@ the other objects it took a while for to have it retain its matrial.
 
 -------------------------
 # Proposal submitted earlier:
+
 My Idea for the Game Engine 1 CA is to create a scene where a vehicle that will be going through an endless(Looping) tunnle with colourful objects floating around,   
 as it will be similar to the scenes from digimon our war game movie when they go through internet connection tunnels and space oddesy movie hyper speed scene, 
 where it will change colour, move and float around with the beat of the music.
 ---------------------------
+#Youtube Videos
+
 This is the display youtube video:
 
 [![OdissyTrip_VideoDisplay_Youtube](https://github.com/SalmanStarneo/GE1CA/blob/main/Screenshot%202021-12-22%20020211.png?raw=true)](https://www.youtube.com/watch?v=r_Bpd2F__3U)
