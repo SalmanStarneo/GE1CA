@@ -79,42 +79,6 @@ as it will be similar to the scenes from digimon our war game movie when they go
 where it will change colour, move and float around with the beat of the music.
 
 
-## This is how to markdown text:
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
 ```
 public void render()
 {
@@ -126,6 +90,65 @@ public void render()
 }
 ```
 
+
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.Audio;
+using UnityEngine;
+
+public class AudioManger : MonoBehaviour
+{
+
+    ScreenPause screenPause;
+    [SerializeField]
+    private AudioSource TrackA;
+    [SerializeField]
+    private AudioSource TrackB;
+    [SerializeField]
+    private AudioSource TrackC;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        if(TrackA == null)
+        {
+            Debug.Log("TrackA has not been inserted");
+            enabled=false;
+        }
+        else
+        {
+            TrackA.Play();
+            
+        }
+        if(TrackB==null)
+        {
+            Debug.Log("TrackB has not been inserted");
+            enabled=false;
+        }
+        else
+        {
+            TrackB.Play();
+        }
+        if(TrackC!=null)
+        {
+            TrackC.Play();
+        }
+      
+        TrackA.loop=true;
+
+        TrackB.loop=true;
+        
+        TrackC.loop=true;
+
+        
+    }
+
+
+}
+```
+```
+```
 This is an image using a relative URL:
 
 ![An image](images/p8.png)
