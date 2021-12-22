@@ -17,7 +17,7 @@ MonoBehaviour:
   - enabled: 1
     useFirstLayerMask: 1
     noiseSetting:
-      strength: 0.4
+      strength: 0.6
       roughness: 10
       numLayers: 10
       persistence: 0.3
