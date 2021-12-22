@@ -73,6 +73,8 @@ fixing the graphic settings for unity, so that the sheders works properly.
 - Fixing the planet display and metrial, as after getting the universal pipeline working for 
 the other objects it took a while for to have it retain its matrial.
 
+- Making complex low poly model in blender and transfering it to unity and setting colours to the gameObject models
+
 
 # Proposal submitted earlier can go here:
 
