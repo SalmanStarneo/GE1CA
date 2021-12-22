@@ -79,19 +79,12 @@ the other objects it took a while for to have it retain its matrial.
 My Idea for the Game Engine 1 CA is to create a scene where a vehicle that will be going through an endless(Looping) tunnle with colourful objects floating around,   
 as it will be similar to the scenes from digimon our war game movie when they go through internet connection tunnels and space oddesy movie hyper speed scene, 
 where it will change colour, move and float around with the beat of the music.
+---------------------------
+This is the display youtube video:
 
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
+[![OdissyTrip_VideoDisplay_Youtube](https://github.com/SalmanStarneo/GE1CA/blob/main/Screenshot%202021-12-22%20020211.png?raw=true)](https://www.youtube.com/watch?v=r_Bpd2F__3U)
+-------------------------
+C# Script
 
 ```
 using System.Collections;
@@ -217,6 +210,70 @@ public class ShapeGenerator
 }
 
 ```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+
+[CustomEditor(typeof(Planet))]
+public class PlanetEditor : Editor
+{
+    Planet planet;
+    Editor editorPlanet;
+    Editor editorShape;
+
+    public override void OnInspectorGUI( )
+    {
+        using(var checkChange = new EditorGUI.ChangeCheckScope())
+        {
+            base.OnInspectorGUI();
+            if(checkChange.changed)
+            {
+                planet.GeneratePlanet();
+            }
+        }
+
+        if(GUILayout.Button("Update/Generate a Planet/moon"))
+        {
+            planet.GeneratePlanet();
+        }
+        DrawSettingsEditor(planet.shapeSetting,planet.OnShapeSettingsUpdated, ref planet.shapeSettingFoldout, ref editorShape);
+        DrawSettingsEditor(planet.colorSetting,planet.OnColourSettingsUpdated, ref planet.colorSettingFoldout, ref editorPlanet);
+    }
+
+    void DrawSettingsEditor(Object settings, System.Action onSettingsUpdated, ref bool foldout, ref Editor editor)
+    {
+        if(settings!=null)
+        {
+            foldout=EditorGUILayout.InspectorTitlebar(foldout,settings);
+
+            using(var checkChange = new EditorGUI.ChangeCheckScope())
+            {
+                if(foldout)
+                {
+                    CreateCachedEditor(settings,null, ref editor);
+                    // Editor editor = CreateEditor(settings);
+                    editor.OnInspectorGUI();
+
+                    if(checkChange.changed)
+                    {
+                        if(onSettingsUpdated!=null)
+                        {
+                            onSettingsUpdated();
+                        }
+                    }
+                }
+            
+            }
+       }
+    }
+
+    private void OnEnable()
+    {
+        planet = (Planet)target;
+    }
+}
+
 ```
 
 ```
@@ -232,15 +289,3 @@ This is an image using an absolute URL:
 
 ![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
 
-This is a youtube video:
-
-[![OdissyTrip_VideoDisplay](https://github.com/SalmanStarneo/GE1CA/blob/main/Screenshot%202021-12-22%20020211.png?raw=true)](https://www.youtube.com/watch?v=r_Bpd2F__3U)
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
