@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class AudioManger : MonoBehaviour
 {
+
+    ScreenPause screenPause;
     [SerializeField]
     private AudioSource TrackA;
     [SerializeField]
@@ -47,5 +49,14 @@ public class AudioManger : MonoBehaviour
 
         
     }
+
+    // void Update() 
+    // {
+    //     if(screenPause.Pause())
+    //     {
+    //         TrackA.pitch*=.5f;
+    //         TrackB.pitch*=.5f;
+    //     }   
+    // }
 
 }
