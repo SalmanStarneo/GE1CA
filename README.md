@@ -90,16 +90,6 @@ This is the display youtube video:
 [![OdissyTrip_DemonstraionOfComponent_Youtube](https://github.com/SalmanStarneo/GE1CA/blob/main/Screenshot%202021-12-22%20020211.png?raw=true)](https://youtu.be/oxj7kDuSNXs)
 
 -------------------------
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
--------------------------
 # C# Script
 
 ```
